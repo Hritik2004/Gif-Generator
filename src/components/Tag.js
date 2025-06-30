@@ -2,7 +2,7 @@
 import Usegif from "../hooks/Usegif";
 
 // import axios from "axios";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 
 import Spinner from "./Spinner";
 
@@ -50,7 +50,7 @@ function changeHandler(event){
         <h1 className="text-2xl underline uppercase font-bold mt-[15px]" >Random {tag} GIF</h1>
 
 
-   { loading ? (<Spinner/>):( <img src={gif} width="450px" />)}
+   { loading ? (<Spinner/>):( <img src={gif} alt="tag" width="450px" />)}
 
 
 

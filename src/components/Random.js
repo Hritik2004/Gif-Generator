@@ -1,10 +1,8 @@
-// import axios from "axios";
-// import { useEffect, useState } from "react";
+
 
 import Spinner from "./Spinner";
 import Usegif from "../hooks/Usegif";
 
-// const API_KEY=process.env.REACT_APP_GIPHY_API_KEY;
 
 const  API_KEY='AFfM0e2K001yOMA8zZC2QMT2tmoQDkSy';
 
@@ -43,7 +41,7 @@ fetchData();
         <h1 className="text-2xl underline uppercase font-bold mt-[15px]" >A Random GIF</h1>
 
 
-   { loading ? (<Spinner/>):( <img src={gif} width="450px" />)}
+   { loading ? (<Spinner/>):( <img src={gif}  alt="random" width="450px" />)}
 
 
 
