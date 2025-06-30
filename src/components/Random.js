@@ -4,7 +4,7 @@ import Spinner from "./Spinner";
 import Usegif from "../hooks/Usegif";
 
 
-const  API_KEY='AFfM0e2K001yOMA8zZC2QMT2tmoQDkSy';
+// const  API_KEY='AFfM0e2K001yOMA8zZC2QMT2tmoQDkSy';
 
 
 function Random(){
